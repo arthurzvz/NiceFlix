@@ -7,10 +7,10 @@ import lombok.experimental.UtilityClass;
 
 @UtilityClass
 public class CategoryMapper {
-    public static Category toCategory(CategoryRequest requestRequest) {
+    public static Category toCategory(CategoryRequest request) {
         return Category
                 .builder()
-                .name(requestRequest.name())
+                .name(request.name())
                 .build();
     }
 
