@@ -9,6 +9,7 @@ import lombok.*;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 public class Category {
 
     @Id
@@ -16,7 +17,6 @@ public class Category {
     private Long id;
     @Column(length = 100, nullable = false)
     private String name;
-
 
 
 }
