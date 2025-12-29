@@ -1,4 +1,7 @@
 package br.com.niceflix.niceflix.request;
 
-public record CategoryRequest() {
+import lombok.Builder;
+
+@Builder
+public record CategoryRequest(String name) {
 }
