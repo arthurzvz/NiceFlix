@@ -1,16 +1,16 @@
 spring:
   application:
-    name: moviefliex
+    name: niceflix
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/movieflix
+    url: jdbc:postgresql://localhost:5432/niceflix
     username: postgres
-    password: postgres
+    password: 127799
     driver-class-name: org.postgresql.Driver
 
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
 
-  flyway:
-    enabled: true
+flyway:
+  enabled: true
